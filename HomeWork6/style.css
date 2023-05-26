@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1146px;
+    margin: auto;
+}
+
+body{
+    background-color: white;
+}
+
+header{
+    padding-top: 53px;
+    padding-bottom: 53px;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 46px;
+}
+
+.logo{
+    font-family: 'M plus 1p';
+    font-weight: 900;
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 178%;
+    color: #0F044C;
+    text-decoration: none;
+}
+
+nav ul a{
+    font-family: 'M plus 1p';
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: #080800;
+    text-decoration: none;
+}
+
+
+.tel{
+    display: flex;
+    font-family: 'M plus 1p';
+    font-weight: 800;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #30233D;
+    list-style: none;
+    text-decoration: none;
+    background-image: url(./images/Vector.svg);
+    display: inline-block;
+    height: 29px;
+    background-repeat: no-repeat;
+    padding-left: 37px;
+    line-height: 29px;
+}
+
+.mobile-menu{
+    display: none;
+}
+
+.main-images{
+    background-image: url(images/images-main-two.png);
+    background-position: 100%;
+    padding-top: 126px;
+    padding-bottom: 115px;
+}
+
+h1{
+    margin-bottom: 22px;
+    font-family: 'M plus 1p';
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 80px;
+    color: #FCFCFC;
+}
+
+.p-first{
+    font-family: 'M plus 1p';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    color: #FCFCFC;
+
+}
+
+.remember h2{
+    padding-top: 72px;
+    font-family: 'M plus 1p';
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #A22F32;
+}
+
+.p-second{
+    max-width: 870px;
+    font-family: 'M plus 1p';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    color: #30233D;
+    margin-bottom: 60px;
+    padding-top: 12px;
+}
+
+.tech{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.box{
+    width: 31.5%;
+    border: 1px solid #F61067;
+    padding: 38px 36px;
+}
+
+ .box h3{
+    font-family: 'M plus 1p';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 40px;
+    color: #30233D;
+    margin-top: 33px;
+    margin-bottom: 13px;
+}
+
+.box p{
+    font-family: 'M plus 1p';
+    font-weight: 400;
+    font-size: 16.2px;
+    line-height: 26px;
+    color: #30233D;
+}
+
+footer{
+    background-color: #080800;
+    margin-top: 58px;
+    padding-top: 84px;
+    padding-bottom: 72px;
+}
+
+footer p{
+    font-family: 'M plus 1p';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    color: #FCFCFC;
+}
+
+.fotter{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.ikons{
+    margin-right: 22px;
+}
+
+
+@media(max-width: 1146px){
+    .container{
+        max-width: 95%;
+    }
+}
+
+@media(max-width: 992px){
+    .mobile-menu{
+        display: inline-block;
+        margin-left: 89px;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .p-first{
+        text-align: center;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    .box{
+        width: 48%;
+        margin-bottom: 61px;
+    }
+    .remember h2{
+        max-width: 830px;
+    }
+
+    footer{
+        padding-top: 25px;
+        padding-bottom: 41px;
+    }
+
+}
+
+@media(max-width:650px){
+    .box{
+        width: 100%;
+        margin-bottom: 34px;
+    }
+    .tel{
+        display: none;
+    }
+
+    .p-first{
+        text-align: center;
+        
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    footer{
+        padding-top: 33px;
+        padding-bottom: 33px;
+    }
+
+}
